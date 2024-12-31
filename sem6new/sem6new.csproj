@@ -100,6 +100,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include=".aspx" />
+    <Content Include="addrotablecontrol.aspx" />
+    <Content Include="Assignment1.aspx" />
+    <Content Include="Assignment1_2.aspx" />
+    <Content Include="Assignment1_3.aspx" />
+    <Content Include="AutoPostBack.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -184,6 +190,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addrotablecontrol.aspx.cs">
+      <DependentUpon>addrotablecontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addrotablecontrol.aspx.designer.cs">
+      <DependentUpon>addrotablecontrol.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -193,6 +206,34 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Assignment1.aspx.cs">
+      <DependentUpon>Assignment1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1.aspx.designer.cs">
+      <DependentUpon>Assignment1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1_2.aspx.cs">
+      <DependentUpon>Assignment1_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1_2.aspx.designer.cs">
+      <DependentUpon>Assignment1_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1_3.aspx.cs">
+      <DependentUpon>Assignment1_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1_3.aspx.designer.cs">
+      <DependentUpon>Assignment1_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutoPostBack.aspx.cs">
+      <DependentUpon>AutoPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutoPostBack.aspx.designer.cs">
+      <DependentUpon>AutoPostBack.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
