@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace YourNamespace
+namespace sem6new
 {
 
 
-    public partial class Site
+    public partial class Site1
     {
 
         /// <summary>

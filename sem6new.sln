@@ -7,7 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sem6new", "sem6new\sem6new.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C09A5B2A-E3BC-4F64-85C3-1E10D4D426B4}"
 	ProjectSection(SolutionItems) = preProject
-		XMLFile1.xml = XMLFile1.xml
+		..\..\..\Downloads\1.jpg = ..\..\..\Downloads\1.jpg
+		..\..\..\Pictures\Screenshots\2.png = ..\..\..\Pictures\Screenshots\2.png
 	EndProjectSection
 EndProject
 Global

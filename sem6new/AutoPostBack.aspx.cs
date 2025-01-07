@@ -16,7 +16,7 @@ namespace sem6new
 
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Label1.Text = "YOUR CITY IS :" + ListBox1.SelectedValue.ToString();
+            Label1.Text = " priyal's  CITY IS :" + ListBox1.SelectedValue.ToString();
         }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)

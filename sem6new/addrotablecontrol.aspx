@@ -9,8 +9,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:AdRotator ID="AdRotator1" runat="server" />
+            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" />
+            <br />
+            <br />
+            <br />
         </div>
+        <asp:FileUpload ID="FileUpload1" runat="server" />
+        <p>
+            &nbsp;</p>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Upload" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

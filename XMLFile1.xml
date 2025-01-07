@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Advertisements>
-	<ad>
-		<Imageurl>
-			
-		</Imageurl>
-		<keywords></keywords>
-		<Navigateurl>
-			
-		</Navigateurl>
-		<AlternateText></AlternateText>
-		<Impression></Impression>
-	</ad>
+	<Ad>
+		<ImageUrl>C:/Users/Lenovo/Pictures/Screenshots/Screenshot (336).png</ImageUrl>
+		<Keyword>c#</Keyword>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>c-sharp</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
 </Advertisements>

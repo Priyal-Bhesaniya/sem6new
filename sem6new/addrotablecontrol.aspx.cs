@@ -13,5 +13,25 @@ namespace sem6new
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (FileUpload1.HasFile)
+
+            {
+                try
+                {
+                    string filename = FileUpload1.FileName;
+                    string path = Server.MapPath("~/Uploads/") + filename;
+                    FileUpload1.SaveAs(path);
+                    Label1.Text = "file uploaded";
+                }
+                catch (Exception ex)
+                {
+                    Label1.Text += ex.Message;
+                }
+            }
+
+        }
     }
 }
