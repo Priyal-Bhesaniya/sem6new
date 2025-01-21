@@ -28,7 +28,7 @@
 
             <button class="btn btn-primary w-100 mb-2" onclick="toggleSublist('assignment2')">Assignment 2</button>
             <div id="assignment2" class="ms-3" style="display: none;">
-                <button class="btn btn-secondary w-100 mb-2" onclick="openAssignment('assignment2_1.html')">2_1</button>
+                <button class="btn btn-secondary w-100 mb-2" onclick="openAssignment('addrotablecontrol.aspx')">2_1</button>
                 <button class="btn btn-secondary w-100 mb-2" onclick="openAssignment('assignment2_2.html')">2_2</button>
                 <button class="btn btn-secondary w-100 mb-2" onclick="openAssignment('assignment2_3.html')">2_3</button>
             </div>
