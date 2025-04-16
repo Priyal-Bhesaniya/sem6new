@@ -99,8 +99,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.jpg" />
-    <Content Include="2.png" />
     <Content Include="About.aspx" />
     <Content Include=".aspx" />
     <Content Include="addrotablecontrol.aspx" />
@@ -134,8 +132,18 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="manage_assignment.aspx" />
     <Content Include="multiviewcontrol.aspx" />
+    <Content Include="p\1.png" />
+    <Content Include="p\2.png" />
+    <Content Include="p\3.png" />
+    <Content Include="p\4.png" />
+    <Content Include="p\5.png" />
+    <Content Include="p\6.png" />
+    <Content Include="ResumePage1.aspx" />
+    <Content Include="ResumePage2.aspx" />
+    <Content Include="ResumePage3.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -168,6 +176,7 @@
     <Content Include="WebForm3.aspx" />
     <Content Include="WebForm4.aspx" />
     <Content Include="XMLFile1.xml" />
+    <Content Include="ResumeMasterPage.Master" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -285,6 +294,34 @@
       <DependentUpon>multiviewcontrol.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumeMasterPage.Master.cs">
+      <DependentUpon>ResumeMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumeMasterPage.Master.designer.cs">
+      <DependentUpon>ResumeMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ResumePage1.aspx.cs">
+      <DependentUpon>ResumePage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumePage1.aspx.designer.cs">
+      <DependentUpon>ResumePage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResumePage2.aspx.cs">
+      <DependentUpon>ResumePage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumePage2.aspx.designer.cs">
+      <DependentUpon>ResumePage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResumePage3.aspx.cs">
+      <DependentUpon>ResumePage3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumePage3.aspx.designer.cs">
+      <DependentUpon>ResumePage3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
